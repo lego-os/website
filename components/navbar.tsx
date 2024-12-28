@@ -18,16 +18,8 @@ export const NAVLINKS = [
     href: "/blog",
   },
   {
-    title: "Examples",
-    href: "#",
-  },
-  {
-    title: "Guides",
-    href: "#",
-  },
-  {
     title: "Community",
-    href: "https://github.com/nisabmohd/Aria-Docs/discussions",
+    href: "#",
   },
 ];
 
@@ -39,6 +31,7 @@ export function Navbar() {
           <SheetLeftbar />
           <div className="flex items-center gap-6">
             <div className="sm:flex hidden">
+              {/* logo 待设计 */}
               <Logo />
             </div>
             <div className="lg:flex hidden items-center gap-4 text-sm font-medium text-muted-foreground">
@@ -52,12 +45,12 @@ export function Navbar() {
             <Search />
             <div className="flex ml-2.5 sm:ml-0">
               <Link
-                href="https://github.com/nisabmohd/NexDocs"
+                href="https://github.com/lego-os"
                 className={buttonVariants({ variant: "ghost", size: "icon" })}
               >
                 <GithubIcon className="h-[1.1rem] w-[1.1rem]" />
               </Link>
-              <Link
+              {/* <Link
                 href="#"
                 className={buttonVariants({
                   variant: "ghost",
@@ -65,7 +58,7 @@ export function Navbar() {
                 })}
               >
                 <TwitterIcon className="h-[1.1rem] w-[1.1rem]" />
-              </Link>
+              </Link> */}
               <ModeToggle />
             </div>
           </div>
@@ -79,7 +72,7 @@ export function Logo() {
   return (
     <Link href="/" className="flex items-center gap-2.5">
       <CommandIcon className="w-6 h-6 text-muted-foreground" strokeWidth={2} />
-      <h2 className="text-md font-bold font-code">AriaDocs</h2>
+      <h2 className="text-md font-bold font-code">lego-os</h2>
     </Link>
   );
 }

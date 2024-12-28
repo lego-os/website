@@ -7,28 +7,25 @@ export default function Home() {
   return (
     <div className="flex sm:min-h-[85.5vh] min-h-[85vh] flex-col items-center justify-center text-center px-2 sm:py-8 py-12">
       <Link
-        href="https://github.com/nisabmohd/Aria-Docs"
+        href="https://github.com/lego-os"
         target="_blank"
         className="mb-5 sm:text-lg flex items-center gap-2 underline underline-offset-4 sm:-mt-12"
       >
-        Follow along on GitHub{" "}
+        跟随我们的脚步{" "}
         <MoveUpRightIcon className="w-4 h-4 font-extrabold" />
       </Link>
       <h1 className="text-3xl font-bold mb-4 sm:text-6xl">
-        Effortlessly build stunning documentation sites with Next.js and server
-        components.
+        lego-os 见证组件化的力量
       </h1>
       <p className="mb-8 sm:text-xl max-w-[800px] text-muted-foreground">
-        This feature-packed documentation template, built with Next.js, offers a
-        sleek and responsive design, perfect for all your project documentation
-        needs.
+        探索使用 Rust 语言编写操作系统，并以组件化的方式进行开发
       </p>
       <div className="flex flex-row items-center gap-5">
         <Link
           href={`/docs${page_routes[0].href}`}
           className={buttonVariants({ className: "px-6", size: "lg" })}
         >
-          Get Stared
+          阅读文档
         </Link>
         <Link
           href="/blog"
@@ -38,13 +35,9 @@ export default function Home() {
             size: "lg",
           })}
         >
-          Read Blog
+          Blog
         </Link>
       </div>
-      <span className="flex flex-row items-start sm:gap-2 gap-0.5 text-muted-foreground text-md mt-7 -mb-12 max-[800px]:mb-12 font-code sm:text-base text-sm font-medium">
-        <TerminalSquareIcon className="w-5 h-5 sm:mr-1 mt-0.5" />
-        {"npx create-aria-doc <project-directory>"}
-      </span>
     </div>
   );
 }

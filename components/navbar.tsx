@@ -15,7 +15,8 @@ export const NAVLINKS = [
   },
   {
     title: "Blog",
-    href: "/blog",
+    // href: "/blog",
+    href: "#",
   },
   {
     title: "Community",

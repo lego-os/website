@@ -9,7 +9,7 @@ export type EachRoute = {
 
 export const ROUTES: EachRoute[] = [
   {
-    title: "lego-os Rust语言&组件化开发",
+    title: "Rust语言 & 组件化开发",
     href: "/introduction",
     noLink: true,
     items: [
@@ -17,19 +17,13 @@ export const ROUTES: EachRoute[] = [
       { title: "指令集架构 RISC-V", href: "/riscv" },
       { title: "现代化的系统级编程语言 Rust", href: "/rust" },
       { title: "操作系统功能分解", href: "/div_os" },
+      { title: "组件化开发模式", href: "/mod_dev" },
+      { title: "构建操作系统", href: "/build" },
+      { title: "资料推荐", href: "/mermaid" },
     ],
   },
   {
-    title: "VisionFive 2平台快速体验",
-    href: "/vf2",
-    noLink: true,
-    items: [
-      { title: "开始", href: "/start" },
-    ],
-
-  },
-  {
-    title: "操作系统杂谈&核心组件",
+    title: "核心组件 & OS杂谈",
     href: "/cores",
     noLink: true,
     items: [
@@ -46,12 +40,14 @@ export const ROUTES: EachRoute[] = [
     ],
   },
   {
-    title: "组件案例",
-    href: "/code",
+    title: "开始 启动！",
+    href: "/start",
     noLink: true,
     items: [
-      { title: "替代VisionFive 2固件 vf2_firmware", href: "/vf2_firmware" },
-      { title: "页式物理内存分配器 基于位图和队列的伙伴系统", href: "/buddy_allocator" },
+      { title: "操作系统的启动", href: "/boot" },
+      { title: "VisionFive 2开发板", href: "/vf2" },
+      { title: "Qemu 模拟器", href: "/qemu" },
+      { title: "伙伴系统", href: "/buddy" },
     ],
   },
 ];

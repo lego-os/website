@@ -10,16 +10,16 @@ import { SheetClose } from "@/components/ui/sheet";
 
 export const NAVLINKS = [
   {
-    title: "Documentation",
+    title: "文档",
     href: `/docs${page_routes[0].href}`,
   },
   {
-    title: "Blog",
+    title: "博客",
     // href: "/blog",
     href: "#",
   },
   {
-    title: "Community",
+    title: "社区",
     href: "#",
   },
 ];

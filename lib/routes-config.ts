@@ -9,15 +9,19 @@ export type EachRoute = {
 
 export const ROUTES: EachRoute[] = [
   {
+    title: "概述",
+    href: "/overview",
+  },
+  {
     title: "Rust语言 & 组件化开发",
     href: "/introduction",
     noLink: true,
     items: [
-      { title: "简述", href: "/description" },
+      { title: "选择Rust语言", href: "/rust" },
       { title: "指令集架构 RISC-V", href: "/riscv" },
-      { title: "现代化的系统级编程语言 Rust", href: "/rust" },
-      { title: "操作系统功能分解", href: "/div_os" },
-      { title: "组件化开发模式", href: "/mod_dev" },
+      { title: "为什么组件化", href: "/why_mod" },
+      { title: "如何组件化", href: "/mod_div" },
+      { title: "开发组件", href: "/mod_dev" },
       { title: "构建操作系统", href: "/build" },
       { title: "资料推荐", href: "/mermaid" },
     ],
@@ -40,7 +44,7 @@ export const ROUTES: EachRoute[] = [
     ],
   },
   {
-    title: "开始 启动！",
+    title: "OS 启动！",
     href: "/start",
     noLink: true,
     items: [

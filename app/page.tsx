@@ -18,7 +18,11 @@ export default function Home() {
         lego-os 见证组件化的力量
       </h1>
       <p className="mb-8 sm:text-xl max-w-[800px] text-muted-foreground">
-        探索使用 Rust 语言编写操作系统，并以组件化的方式进行开发
+        lego-os 探索使用 Rust 语言编写操作系统，并采用组件化的开发方式
+        <br/>
+        借助 Rust 内存安全机制、更现代化、抽象度更高且统一的包管理系统进行编码
+        <br/>
+        分解OS核心功能、设计核心组件、基于组件构建OS
       </p>
       <div className="flex flex-row items-center gap-5">
         <Link

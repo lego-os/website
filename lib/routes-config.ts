@@ -13,7 +13,7 @@ export const ROUTES: EachRoute[] = [
     href: "/overview",
   },
   {
-    title: "Rust语言 & 组件化开发",
+    title: "第一部分 Rust语言 & 组件化开发",
     href: "/introduction",
     noLink: true,
     items: [
@@ -27,12 +27,13 @@ export const ROUTES: EachRoute[] = [
     ],
   },
   {
-    title: "核心组件 & OS杂谈",
+    title: "第二部分 核心组件 & OS杂谈",
     href: "/cores",
     noLink: true,
     items: [
       { title: "简述", href: "/description" },
       { title: "架构相关", href: "/lego_arch" },
+      { title: "中断处理", href: "/lego_irq" },
       { title: "设备驱动", href: "/lego_device" },
       { title: "内存管理", href: "/lego_mem" },
       { title: "文件管理", href: "/lego_fs" },
@@ -44,13 +45,13 @@ export const ROUTES: EachRoute[] = [
     ],
   },
   {
-    title: "OS 启动！",
+    title: "第三部分 OS 启动！",
     href: "/start",
     noLink: true,
     items: [
       { title: "操作系统的启动", href: "/boot" },
-      { title: "VisionFive 2开发板", href: "/vf2" },
-      { title: "Qemu 模拟器", href: "/qemu" },
+      { title: "自定义VisionFive 2引导程序", href: "/vf2" },
+      { title: "Qemu 模拟器开发调试", href: "/qemu" },
       { title: "伙伴系统", href: "/buddy" },
     ],
   },

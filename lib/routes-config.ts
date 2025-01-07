@@ -27,7 +27,18 @@ export const ROUTES: EachRoute[] = [
     ],
   },
   {
-    title: "第二部分 核心组件 & OS杂谈",
+    title: "第二部分 OS 启动！",
+    href: "/start",
+    noLink: true,
+    items: [
+      { title: "操作系统的启动", href: "/boot" },
+      { title: "自定义VisionFive 2引导程序", href: "/vf2" },
+      { title: "Qemu 模拟器开发调试", href: "/qemu" },
+      { title: "伙伴系统", href: "/buddy" },
+    ],
+  },
+  {
+    title: "第三部分 核心组件 & OS杂谈",
     href: "/cores",
     noLink: true,
     items: [
@@ -42,17 +53,6 @@ export const ROUTES: EachRoute[] = [
       { title: "网络协议栈", href: "/lego_net" },
       { title: "IO模型", href: "/lego_io" },
       { title: "虚拟化", href: "/lego_virt" },
-    ],
-  },
-  {
-    title: "第三部分 OS 启动！",
-    href: "/start",
-    noLink: true,
-    items: [
-      { title: "操作系统的启动", href: "/boot" },
-      { title: "自定义VisionFive 2引导程序", href: "/vf2" },
-      { title: "Qemu 模拟器开发调试", href: "/qemu" },
-      { title: "伙伴系统", href: "/buddy" },
     ],
   },
 ];

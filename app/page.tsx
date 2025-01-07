@@ -32,7 +32,7 @@ export default function Home() {
           阅读文档
         </Link>
         <Link
-          href="/blog"
+          href="#"
           className={buttonVariants({
             variant: "secondary",
             className: "px-6",
